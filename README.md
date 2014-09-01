@@ -9,3 +9,4 @@ The developers: (More needed! Apply at http://bikkypluginblog.webs.com)
 - Bikky (Bikkiester)
 - 8654
 - KEEGDOESMC5/KEEGDOESMC6
+- mkmax8
