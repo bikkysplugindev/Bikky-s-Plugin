@@ -1,0 +1,7 @@
+name: VanossFreedomMod
+main: me.StevenLawson.TotalFreedomMod.TotalFreedomMod
+version: 1.6
+description: Plugin for the Vanoss Freedom server.
+authors: [Madgeek1450, DarthSalamon, 8654]
+
+# plugin.yml is no longer used to define commands.

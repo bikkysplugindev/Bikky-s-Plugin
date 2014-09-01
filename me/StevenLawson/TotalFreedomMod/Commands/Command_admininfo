@@ -1,0 +1,33 @@
+package me.StevenLawson.TotalFreedomMod.Commands;
+
+import org.bukkit.ChatColor;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+@CommandPermissions(level = AdminLevel.ALL, source = SourceType.BOTH)
+@CommandParameters(description = "Shows you how to become a admin.", usage = "/<command>")
+public class Command_admininfo extends TFM_Command
+{
+
+    @Override
+    public boolean run(CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
+    {
+
+        if(args.length != 0)
+        {
+            return false;
+        }
+        else
+        {
+            playerMsg(ChatColor.GOLD + "To apply for admin, you must have 21 days of membership on the forums, only exception is if you");
+            playerMsg(ChatColor.GOLD + "have 1 senior admin recommendation.");
+            playerMsg(ChatColor.LIGHT_PURPLE + "Next, follow the rubric here: http://tatsucraft.boards.net/thread/4/apply-super-admin");
+            playerMsg(ChatColor.RED + "You must have not ever been perm banned, if you were removed from the perm ban list,");
+            playerMsg(ChatColor.RED + "and want to apply for admin status, you must have 2 senior admin recommendations before applying.");
+            playerMsg(ChatColor.LIGHT_PURPLE + "Please don't bug admins for recommendations, this will weaken the chances of you getting admin.");
+            playerMsg(ChatColor.LIGHT_PURPLE + "Good Luck");
+            return true;
+        }
+    }
+}
