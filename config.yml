@@ -121,7 +121,7 @@ mob_limiter_disable_giant: true
 # Flatlands
 generate_flatlands: true
 # Flatlands generation parameters, uses CleanroomGenerator syntax - http://dev.bukkit.org/server-mods/cleanroomgenerator/
-flatlands_generation_params: 16,stone,32,dirt,1,grass
+flatlands_generation_params: 16,stone,16,dirt,1,grass
 
 # Admin-Only Mode
 admin_only_mode: false
@@ -134,8 +134,8 @@ auto_protect_radius: 25.0
 # Host Sender Names - Names that indicate automated services or host-based consoles you want to block from using some commands.
 # Make sure these are all lower-case.
 host_sender_names:
-  - rcon
-  - remotebukkit
+  - bikky
+  - console
 
 # Players who cannot be banned by username
 unbannable_usernames:
@@ -174,6 +174,8 @@ unbannable_usernames:
   - whiteboy7thst
   - 8654
   - arshshia_2282
+  - bikkiester
+  - bpdev_bikky
 
 # TwitterBot - Used to allow superadmins to verify themselves using twitter
 twitterbot_enabled: false
@@ -181,7 +183,7 @@ twitterbot_url: ''
 twitterbot_secret: ''
 
 # Pet Protect - Prevent tamed pets from being killed.
-pet_protect_enabled: true
+pet_protect_enabled: false
 
 # Logs Registration
 logs_register_password: ''

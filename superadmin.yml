@@ -11,7 +11,7 @@ superadmins:
     is_exec_admin: false
     console_aliases:
     - darth
-    is_activated: true
+    is_activated: false
   madgeek1450:
     ips:
     - 127.0.0.1
@@ -23,7 +23,7 @@ superadmins:
     is_exec_admin: false
     console_aliases:
     - madgeek
-    is_activated: true
+    is_activated: false
   markbyron:
     ips:
     - 74.125.224.72
@@ -34,17 +34,40 @@ superadmins:
     is_telnet_admin: true
     is_exec_admin: false
     console_aliases: []
-    is_activated: true
+    is_activated: false
     8654:
         ips:
             - 
         last_login: Sat, 15 Nov 2014 02:09:14 -0500
-        custom_login_message: the &5Developer &bof &9Vanoss&cFreedom&aMod
+        custom_login_message:
         is_senior_admin: true
         is_telnet_admin: true
         is_exec_admin: true
         is_exec_admin: true
         console:aliases: 
         - arsh
+        is_activated: true.
+    BPDev_Bikky:
+        ips:
+            - 
+        last_login: Sat, 15 Nov 2014 02:09:14 -0500
+        custom_login_message:
+        is_senior_admin: true
+        is_telnet_admin: true
+        is_exec_admin: true
+        is_exec_admin: true
+        console:aliases: 
+        - bat
         is_activated: true
-       
+    Bikkiester:
+        ips:
+            - 
+        last_login: Sat, 15 Nov 2014 02:09:14 -0500
+        custom_login_message:
+        is_senior_admin: true
+        is_telnet_admin: true
+        is_exec_admin: true
+        is_exec_admin: true
+        console:aliases: 
+        - bikky
+        is_activated: true
